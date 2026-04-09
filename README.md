@@ -1,19 +1,23 @@
-# Build a Personalized Assistant
+# Sprint Project M03 - Personalized Assistant
 
-> [!IMPORTANT]
-> **Fork this repo first.** If you skip this step, your Codespace will open on the original repo and you will have no way to save or push your work. Your changes will be lost when the Codespace is deleted.
->
-> Fork: click **Fork** (top-right of this page) and create a copy under your own account. Then follow the steps below from your fork.
+## Overview
+In this project, I built and ran a personalized AI assistant using GitHub Codespaces and the provided repository.
 
-Build a personalized AI assistant from scratch. You will practice the three core primitives of context engineering—**write**, **select**, and **isolate**—by designing an agent that learns your preferences and improves over time.
+## Steps Completed
+1. Forked the repository to my GitHub account
+2. Launched a GitHub Codespace
+3. Set up the development environment
+4. Configured the API key in a `.env` file
+5. Installed dependencies using the setup process
+6. Ran the demo workflows
+7. Generated outputs using the assistant
 
-We use [opencode](https://opencode.ai/) as the coding environment. `claude code` users: rename `.agents` to `.claude`.
+## How to Reproduce
+1. Fork the repository
+2. Open in GitHub Codespaces
+3. Add API key to `.env`
+4. Run `/setup`
+5. Run demo commands in chat
 
-## Steps
-
-1. [Before you start](docs/before-you-start.md)
-2. [Launch the codespaces](docs/codespaces.md)
-3. [Setup](docs/setup.md) - connect your API key and install dependencies
-4. [Demo](docs/demo.md) - run the example skills to understand the patterns
-5. [Your Task](docs/task.md) - build your own skill
-
+## Notes
+The assistant did not proceed as expected, user had to upload the link of the PDF and ask the assistant to upload the PDF that way.
